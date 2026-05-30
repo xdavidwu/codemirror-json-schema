@@ -353,7 +353,6 @@ export class JSONCompletion {
       if (properties) {
         Object.entries(properties).forEach(([key, value]) => {
           if (typeof value === "object") {
-            const description = value.description ?? "";
             const type = value.type ?? "";
             const typeStr = Array.isArray(type) ? type.toString() : type;
             const completion: Completion = {
@@ -368,7 +367,9 @@ export class JSONCompletion {
               ),
               type: "property",
               detail: typeStr,
-              info: () => this.formatInfo(description),
+              info: value.description
+                ? () => this.formatInfo(value.description!)
+                : undefined,
             };
             collector.add(this.applySnippetCompletion(completion));
           }
@@ -842,7 +843,9 @@ export class JSONCompletion {
         type: schema.type?.toString(),
         ...this.getAppliedValue(schema.const),
 
-        info: () => this.formatInfo(schema.description ?? ""),
+        info: schema.description
+          ? () => this.formatInfo(schema.description!)
+          : undefined,
       });
     }
 
@@ -852,7 +855,10 @@ export class JSONCompletion {
         collector.add({
           type: schema.type?.toString(),
           ...this.getAppliedValue(enm),
-          info: () => this.formatInfo(schema.description ?? ""),
+
+          info: schema.description
+            ? () => this.formatInfo(schema.description!)
+            : undefined,
         });
       }
     }
