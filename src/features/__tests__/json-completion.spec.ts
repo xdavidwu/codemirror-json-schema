@@ -862,12 +862,12 @@ describe.each([
       {
         label: "type1Specific",
         apply: `'type1Specific'`,
-        // info: "",
+        info: "",
       },
       {
         label: "common",
         apply: `'common'`,
-        // info: "",
+        info: "",
       },
     ],
     schema: testSchemaConditionalPropertiesOnSameObject,
@@ -880,12 +880,12 @@ describe.each([
       {
         label: "type2Specific",
         apply: `'type2Specific'`,
-        // info: "",
+        info: "",
       },
       {
         label: "common",
         apply: `'common'`,
-        // info: "",
+        info: "",
       },
     ],
     schema: testSchemaConditionalPropertiesOnSameObject,
@@ -898,11 +898,13 @@ describe.each([
       {
         label: "type1",
         apply: "'type1'",
+        info: "",
         type: "string",
       },
       {
         label: "type2",
         apply: "'type2'",
+        info: "",
         type: "string",
       },
     ],

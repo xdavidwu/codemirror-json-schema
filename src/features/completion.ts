@@ -842,7 +842,7 @@ export class JSONCompletion {
         type: schema.type?.toString(),
         ...this.getAppliedValue(schema.const),
 
-        info: schema.description,
+        info: () => this.formatInfo(schema.description ?? ""),
       });
     }
 
@@ -852,7 +852,7 @@ export class JSONCompletion {
         collector.add({
           type: schema.type?.toString(),
           ...this.getAppliedValue(enm),
-          info: schema.description,
+          info: () => this.formatInfo(schema.description ?? ""),
         });
       }
     }
