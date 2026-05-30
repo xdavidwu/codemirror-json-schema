@@ -55,6 +55,7 @@ class CompletionCollector {
 export interface JSONCompletionOptions {
   mode?: JSONMode;
   jsonParser?: DocumentParser;
+  formatInfo?: (description: string) => HTMLElement;
 }
 
 function isRealSchema(
@@ -67,6 +68,11 @@ function isRealSchema(
     subSchema.type === "undefined"
   );
 }
+
+const defaultFormatInfo = (description: string) =>
+  el("div", {
+    inner: renderMarkdown(description),
+  });
 
 export class JSONCompletion {
   private originalSchema: JSONSchema7 | null = null;
@@ -81,12 +87,14 @@ export class JSONCompletion {
   private laxSchema: JSONSchema7 | null = null;
   private mode: JSONMode = MODES.JSON;
   private parser: DocumentParser;
+  private formatInfo = defaultFormatInfo;
 
   // private lastKnownValidData: object | null = null;
 
   constructor(private opts: JSONCompletionOptions) {
     this.mode = opts.mode ?? MODES.JSON;
     this.parser = this.opts?.jsonParser ?? getDefaultParser(this.mode);
+    this.formatInfo = opts.formatInfo ?? defaultFormatInfo;
   }
 
   public doComplete(ctx: CompletionContext) {
@@ -360,10 +368,7 @@ export class JSONCompletion {
               ),
               type: "property",
               detail: typeStr,
-              info: () =>
-                el("div", {
-                  inner: renderMarkdown(description),
-                }),
+              info: () => this.formatInfo(description),
             };
             collector.add(this.applySnippetCompletion(completion));
           }
