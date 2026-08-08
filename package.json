@@ -1,5 +1,5 @@
 {
-  "name": "codemirror-json-schema",
+  "name": "@xdavidwu/codemirror-json-schema",
   "license": "MIT",
   "version": "0.8.1",
   "description": "Codemirror 6 extensions that provide full JSONSchema support for `@codemirror/lang-json` and `codemirror-json5`",
@@ -54,8 +54,7 @@
       "default": "./cjs/yaml/index.js"
     }
   },
-  "repository": "github:acao/codemirror-json-schema",
-  "homepage": "https://codemirror-json-schema.netlify.app/",
+  "repository": "github:xdavidwu/codemirror-json-schema",
   "dependencies": {
     "@sagold/json-pointer": "^5.1.1",
     "@shikijs/markdown-it": "^1.22.2",
