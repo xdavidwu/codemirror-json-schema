@@ -34,6 +34,7 @@
 
 ### Properties
 
+- [formatInfo](JSONCompletion.md#formatinfo)
 - [laxSchema](JSONCompletion.md#laxschema)
 - [mode](JSONCompletion.md#mode)
 - [opts](JSONCompletion.md#opts)
@@ -55,7 +56,7 @@
 
 #### Defined in
 
-[features/completion.ts:87](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L87)
+[features/completion.ts:94](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L94)
 
 ## Methods
 
@@ -76,7 +77,7 @@
 
 #### Defined in
 
-[features/completion.ts:856](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L856)
+[features/completion.ts:867](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L867)
 
 ---
 
@@ -98,7 +99,7 @@
 
 #### Defined in
 
-[features/completion.ts:785](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L785)
+[features/completion.ts:791](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L791)
 
 ---
 
@@ -119,7 +120,7 @@
 
 #### Defined in
 
-[features/completion.ts:831](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L831)
+[features/completion.ts:837](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L837)
 
 ---
 
@@ -139,7 +140,7 @@
 
 #### Defined in
 
-[features/completion.ts:866](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L866)
+[features/completion.ts:877](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L877)
 
 ---
 
@@ -161,7 +162,7 @@
 
 #### Defined in
 
-[features/completion.ts:756](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L756)
+[features/completion.ts:762](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L762)
 
 ---
 
@@ -181,7 +182,7 @@
 
 #### Defined in
 
-[features/completion.ts:301](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L301)
+[features/completion.ts:309](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L309)
 
 ---
 
@@ -202,7 +203,7 @@
 
 #### Defined in
 
-[features/completion.ts:873](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L873)
+[features/completion.ts:884](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L884)
 
 ---
 
@@ -222,7 +223,7 @@
 
 #### Defined in
 
-[features/completion.ts:92](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L92)
+[features/completion.ts:100](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L100)
 
 ---
 
@@ -243,7 +244,7 @@
 
 #### Defined in
 
-[features/completion.ts:124](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L124)
+[features/completion.ts:132](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L132)
 
 ---
 
@@ -263,7 +264,7 @@
 
 #### Defined in
 
-[features/completion.ts:1038](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L1038)
+[features/completion.ts:1049](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L1049)
 
 ---
 
@@ -288,7 +289,7 @@
 
 #### Defined in
 
-[features/completion.ts:1013](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L1013)
+[features/completion.ts:1024](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L1024)
 
 ---
 
@@ -309,7 +310,7 @@
 
 #### Defined in
 
-[features/completion.ts:570](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L570)
+[features/completion.ts:576](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L576)
 
 ---
 
@@ -329,7 +330,7 @@
 
 #### Defined in
 
-[features/completion.ts:593](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L593)
+[features/completion.ts:599](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L599)
 
 ---
 
@@ -353,7 +354,7 @@
 
 #### Defined in
 
-[features/completion.ts:422](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L422)
+[features/completion.ts:428](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L428)
 
 ---
 
@@ -374,7 +375,7 @@
 
 #### Defined in
 
-[features/completion.ts:541](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L541)
+[features/completion.ts:547](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L547)
 
 ---
 
@@ -395,7 +396,7 @@
 
 #### Defined in
 
-[features/completion.ts:558](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L558)
+[features/completion.ts:564](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L564)
 
 ---
 
@@ -416,7 +417,7 @@
 
 #### Defined in
 
-[features/completion.ts:597](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L597)
+[features/completion.ts:603](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L603)
 
 ---
 
@@ -441,7 +442,7 @@
 
 #### Defined in
 
-[features/completion.ts:310](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L310)
+[features/completion.ts:318](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L318)
 
 ---
 
@@ -462,7 +463,7 @@
 
 #### Defined in
 
-[features/completion.ts:888](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L888)
+[features/completion.ts:899](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L899)
 
 ---
 
@@ -485,7 +486,7 @@
 
 #### Defined in
 
-[features/completion.ts:607](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L607)
+[features/completion.ts:613](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L613)
 
 ---
 
@@ -505,9 +506,33 @@
 
 #### Defined in
 
-[features/completion.ts:1034](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L1034)
+[features/completion.ts:1045](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L1045)
 
 ## Properties
+
+### formatInfo
+
+• `Private` **formatInfo**: (`description`: `string`) => `HTMLElement` = `defaultFormatInfo`
+
+#### Type declaration
+
+▸ (`description`): `HTMLElement`
+
+##### Parameters
+
+| Name          | Type     |
+| :------------ | :------- |
+| `description` | `string` |
+
+##### Returns
+
+`HTMLElement`
+
+#### Defined in
+
+[features/completion.ts:90](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L90)
+
+---
 
 ### laxSchema
 
@@ -518,7 +543,7 @@ Does not contain any required properties and allows any additional properties ev
 
 #### Defined in
 
-[features/completion.ts:81](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L81)
+[features/completion.ts:87](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L87)
 
 ---
 
@@ -528,7 +553,7 @@ Does not contain any required properties and allows any additional properties ev
 
 #### Defined in
 
-[features/completion.ts:82](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L82)
+[features/completion.ts:88](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L88)
 
 ---
 
@@ -538,7 +563,7 @@ Does not contain any required properties and allows any additional properties ev
 
 #### Defined in
 
-[features/completion.ts:87](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L87)
+[features/completion.ts:94](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L94)
 
 ---
 
@@ -548,7 +573,7 @@ Does not contain any required properties and allows any additional properties ev
 
 #### Defined in
 
-[features/completion.ts:72](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L72)
+[features/completion.ts:78](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L78)
 
 ---
 
@@ -558,7 +583,7 @@ Does not contain any required properties and allows any additional properties ev
 
 #### Defined in
 
-[features/completion.ts:83](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L83)
+[features/completion.ts:89](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L89)
 
 ---
 
@@ -570,4 +595,4 @@ Inlined (expanded) top-level $ref if present.
 
 #### Defined in
 
-[features/completion.ts:76](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L76)
+[features/completion.ts:82](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L82)

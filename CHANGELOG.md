@@ -1,5 +1,15 @@
 # codemirror-json-schema
 
+## 0.9.0
+
+### Minor Changes
+
+- [`ed200b6`](https://github.com/xdavidwu/codemirror-json-schema/commit/ed200b6271483dabf7119c5ccc49cc119d35f072) Thanks [@xdavidwu](https://github.com/xdavidwu)! - Add formatInfo option to completion to control description rendering
+
+### Patch Changes
+
+- [`ed200b6`](https://github.com/xdavidwu/codemirror-json-schema/commit/ed200b6271483dabf7119c5ccc49cc119d35f072) Thanks [@xdavidwu](https://github.com/xdavidwu)! - Fix description rendering on empty or no description, and enums
+
 ## 0.8.2
 
 ### Patch Changes
