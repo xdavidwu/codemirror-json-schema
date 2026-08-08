@@ -1,4 +1,4 @@
-[codemirror-json-schema](../README.md) / JSONValidationOptions
+[@xdavidwu/codemirror-json-schema](../README.md) / JSONValidationOptions
 
 # Interface: JSONValidationOptions
 
@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[features/validation.ts:30](https://github.com/jsonnext/codemirror-json-schema/blob/d360a86/src/features/validation.ts#L30)
+[features/validation.ts:30](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/validation.ts#L30)
 
 ---
 
@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[features/validation.ts:31](https://github.com/jsonnext/codemirror-json-schema/blob/d360a86/src/features/validation.ts#L31)
+[features/validation.ts:31](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/validation.ts#L31)
 
 ---
 
@@ -52,4 +52,4 @@
 
 #### Defined in
 
-[features/validation.ts:29](https://github.com/jsonnext/codemirror-json-schema/blob/d360a86/src/features/validation.ts#L29)
+[features/validation.ts:29](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/validation.ts#L29)

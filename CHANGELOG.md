@@ -1,5 +1,11 @@
 # codemirror-json-schema
 
+## 0.8.2
+
+### Patch Changes
+
+- [`aa0d899`](https://github.com/xdavidwu/codemirror-json-schema/commit/aa0d899d6a6f885bc0f052d0c7c82c70cf049c5e) Thanks [@xdavidwu](https://github.com/xdavidwu)! - Update dependencies for security fixes
+
 ## 0.8.1
 
 ### Patch Changes
