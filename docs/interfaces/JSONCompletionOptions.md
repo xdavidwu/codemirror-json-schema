@@ -6,10 +6,35 @@
 
 ### Properties
 
+- [formatInfo](JSONCompletionOptions.md#formatinfo)
 - [jsonParser](JSONCompletionOptions.md#jsonparser)
 - [mode](JSONCompletionOptions.md#mode)
 
 ## Properties
+
+### formatInfo
+
+• `Optional` **formatInfo**: (`description`: `string`) => `HTMLElement`
+
+#### Type declaration
+
+▸ (`description`): `HTMLElement`
+
+##### Parameters
+
+| Name          | Type     |
+| :------------ | :------- |
+| `description` | `string` |
+
+##### Returns
+
+`HTMLElement`
+
+#### Defined in
+
+[features/completion.ts:58](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L58)
+
+---
 
 ### jsonParser
 
@@ -17,7 +42,7 @@
 
 #### Defined in
 
-[features/completion.ts:57](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L57)
+[features/completion.ts:57](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L57)
 
 ---
 
@@ -27,4 +52,4 @@
 
 #### Defined in
 
-[features/completion.ts:56](https://github.com/xdavidwu/codemirror-json-schema/blob/1ec130b/src/features/completion.ts#L56)
+[features/completion.ts:56](https://github.com/xdavidwu/codemirror-json-schema/blob/e1ee951/src/features/completion.ts#L56)
